@@ -7,7 +7,7 @@ const Header = () => {
     <Container className={styles.container}>
         <div className={styles.UpperContainer}>
             <img src='asset/img/Logo.png'/>
-            <div style={{fontWeight:"bold", color:"black", fontSize:"2rem", backgroundColor:"#d84444", padding:".5rem 3rem .5rem 3rem", marginLeft:"-30rem", transform:"rotate(3deg)"}}>
+            <div style={{fontWeight:"bold", color:"black", fontSize:"2rem", backgroundColor:"#d84444", padding:".5rem 3rem .5rem 3rem", marginLeft:"-25rem", transform:"rotate(3deg)"}}>
                 Your trusted source of online films
             </div>
             <form method='POST'>

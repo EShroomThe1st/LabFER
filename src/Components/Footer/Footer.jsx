@@ -5,7 +5,10 @@ import { Container } from 'react-bootstrap'
 const Footer = () => {
   return (
     <Container className={styles.container}>
-        <p>Copyright 2023© FilmFreak</p>
+        <div className={styles.Copyright}>
+            <p>Copyright 2023© FilmFreak</p>
+            <img src='asset/img/Logo.png'/>
+        </div>
         <div className={styles.Category}>
         <a href="#">Action</a>
         <a href="#">Sci-fi</a>

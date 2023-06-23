@@ -58,3 +58,30 @@ export const Films=[
         Nation: "India",
     },
 ]
+
+export const PreviouslyWatched=[
+    {
+        Image:"asset/img/Hacksaw-Ridge.jpg",
+        Title:"HackSaw Ridge",
+        Year:"2016",
+    },
+
+    {
+        Image:"asset/img/Blair-Witch-Project.png",
+        Title:"Blair Witch Project",
+        Year:"1999",
+    },
+
+    {
+        Image:"asset/img/Neon-Genesis-Evangelion.jpg",
+        Title:"Neon Genesis Evangelion",
+        Year:"1995",
+    },
+] 
+
+export const Images=[
+    {id: '0', src: 'asset/img/Suicide-Squad.jpg'},
+    {id: '1',src: 'asset/img/The-Thing.jpg'},
+    {id: '2',src: 'asset/img/Gravity-Falls.jpg'},
+    {id: '3',src: 'asset/img/Cowboy-Bebop.webp'},
+]
