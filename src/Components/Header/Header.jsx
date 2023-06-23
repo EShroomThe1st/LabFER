@@ -10,7 +10,7 @@ const Header = () => {
             <div style={{fontWeight:"bold", color:"black", fontSize:"2rem", backgroundColor:"#d84444", padding:".5rem 3rem .5rem 3rem", marginLeft:"-25rem", transform:"rotate(3deg)"}}>
                 Your trusted source of online films
             </div>
-            <form method='POST'>
+            <form method=''>
                 <input type="text" placeholder='Search Box'/>
                 <button>Search</button>
             </form>

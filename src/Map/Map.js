@@ -83,5 +83,5 @@ export const Images=[
     {id: '0', src: 'asset/img/Suicide-Squad.jpg'},
     {id: '1',src: 'asset/img/The-Thing.jpg'},
     {id: '2',src: 'asset/img/Gravity-Falls.jpg'},
-    {id: '3',src: 'asset/img/Cowboy-Bebop.webp'},
+    {id: '3',src: 'asset/img/Cowboy-Bebop.jpg'},
 ]
