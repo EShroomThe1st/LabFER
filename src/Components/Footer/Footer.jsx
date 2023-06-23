@@ -1,0 +1,27 @@
+import React from 'react'
+import styles from './Footer.module.css'
+import { Container } from 'react-bootstrap'
+
+const Footer = () => {
+  return (
+    <Container className={styles.container}>
+        <p>Copyright 2023© FilmFreak</p>
+        <div className={styles.Category}>
+        <a href="#">Action</a>
+        <a href="#">Sci-fi</a>
+        <a href="#">Dark Fantasy</a>
+        <a href="#">Animation</a>
+        <a href="#">Horror</a>
+        </div>
+        <div className={styles.Category}>
+        <a href="#">Adventure</a>
+        <a href="#">Psychological</a>
+        <a href="#">Thriller</a>
+        <a href="#">Documentation</a>
+        <a href="#">Found Footage</a>
+        </div>
+    </Container>
+  )
+}
+
+export default Footer
