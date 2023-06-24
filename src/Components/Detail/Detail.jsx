@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
 import { Rating } from "@mui/material";
+import { Container } from "react-bootstrap";
 
 const Detail = () => {
     const [isDarkMode, setIsDarkMode] = useState(false);
@@ -22,7 +23,7 @@ const Detail = () => {
   let ID = film.id.toLocaleString();
 
   return (
-    <div
+    <Container
     style={{
       backgroundColor: isDarkMode ? '#494949' : 'white',
       transition: 'background-color 0.3s ease',
@@ -48,7 +49,7 @@ const Detail = () => {
         </div>
       </div>
       <Footer/>
-    </div>
+    </Container>
   );
 };
 

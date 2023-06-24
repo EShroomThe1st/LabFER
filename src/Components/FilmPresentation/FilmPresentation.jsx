@@ -6,6 +6,8 @@ import { Grow, Rating } from "@mui/material";
 
 const FilmPresentation = ({ isDarkMode }) => {
   const [selectedItem, setSelectedItem] = useState(null);
+
+  const film = Films.filter((obj) => obj.previously === "0")
   const openPopUp = (item) => {
     setSelectedItem(item);
   };
@@ -31,7 +33,7 @@ const FilmPresentation = ({ isDarkMode }) => {
           marginLeft: "7rem",
         }}
       >
-        {Films.map((film) => (
+        {film.map((film) => (
           <div className={styles.Film} key={film.id}>
             <img src={film.Image} onClick={() => openPopUp(film)} />
             <div className={styles.Content} onClick={() => openPopUp(film)}>

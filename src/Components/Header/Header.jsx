@@ -26,7 +26,7 @@ const Header = ({ isDarkMode, handleDarkModeToggle }) => {
   return (
     <Container className={styles.container}>
       <div className={styles.UpperContainer}>
-      <img src="../../asset/img/Logo.png" alt="Logo" />
+      <a href="/"><img src="../../asset/img/Logo.png" alt="Logo" /></a>
         <div
           style={{
             fontWeight: 'bold',
@@ -60,6 +60,9 @@ const Header = ({ isDarkMode, handleDarkModeToggle }) => {
         </a>
         <a href="#" className={styles.Category}>
           TV-Show
+        </a>
+        <a href="/contact" className={styles.Category}>
+          Contact
         </a>
       </div>
     </Container>
